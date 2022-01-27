@@ -1,0 +1,182 @@
+---
+---
+
+@import "functions";
+@import "variables";
+@import "mixins";
+
+body {
+  background: #FFF;
+  padding-top: 90px;
+  height: 100vh;
+}
+
+.hero {
+  background: #333;
+  background-size: cover;
+  height: 25vh;
+  position: relative;
+  overflow: hidden;
+  z-index: 10;
+  .container {
+    z-index: 100;
+    color: #FFF;
+    text-shadow: 0 6px 0 rgba(#000,.50);
+  }
+}
+
+.hero-back {
+  @extend .hero;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  filter: blur(2px);
+  -webkit-filter: blur(2.5px);
+  height: 100%;
+  width: 100%;
+  z-index: -100;
+}
+
+div#container {
+  padding-bottom: 8em;
+  position: relative;
+  height: auto !important;
+  height: 100%;
+  min-height: 100%; }
+
+figure.image-caption{
+  margin: 16px 40px 32px;
+  .figcaption {
+    font-size: 0.8rem;
+  }
+}
+/* Custom footer */
+
+.navbar-dark {
+  @media (prefers-color-scheme: dark) {
+    @include gradient-x($primary, $black, 0%, 100%);
+  }
+}
+
+.footer-dark {
+  @media not print {
+    @include gradient-x($primary, $navbar-dark-active-color, 0%, 100%);
+  }
+  @media (prefers-color-scheme: dark) {
+    @include gradient-x($primary, $black, 0%, 100%);
+  }
+  border-top-color: 000c97;
+
+  border-top-style: solid;
+  border-top-width: 3px;
+  padding-top: 0.5rem;
+  padding-bottom: 1.5rem;
+
+  padding-left: 0;
+  padding-right: 0;
+
+  @media only screen and (min-width: 768px) {
+    padding-left: 1.0rem;
+    padding-right: 0.5rem;
+  }
+
+  // Stick the footer to the bottom
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+
+  a {
+    @media not print {
+      color: $navbar-dark-active-color;
+
+      @include hover-focus {
+        color: $navbar-dark-hover-color;
+      }
+    }
+  }
+
+  .footer-text {
+    @media not print {
+      color: $navbar-dark-active-color;
+      text-shadow: 0px 0px 10px $primary;
+    }
+    font-size: smaller;
+    @media only screen and (min-width: 400px), only print {
+      font-size: medium;
+    }
+
+  }
+
+  .footer-logos {
+    display: flex;
+    flex-direction: column;
+    @media only screen and (min-width: 768px), only print {
+      flex-direction: row;
+    }
+
+    img {
+      // width: 64px;
+      height: 32px;
+      @media only screen and (min-width: 400px), only print {
+        height: 64px;
+      }
+    }
+
+    .footer-logo {
+      margin-right: 0.5rem;
+      margin-top: 0.5rem;
+      margin-bottom: 0.5rem;
+      justify-content: center;
+    }
+  }
+
+  .footer-vertical-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+  }
+
+  .footer-buttons {
+    width:33px;
+    @media only screen and (min-width: 991px) {
+      width:66px;
+    }
+    @media only print {
+      display: none;
+    }
+  }
+
+}
+
+// Header
+
+.mainpage-all {
+  display: flex;
+  flex-flow: column;
+  @media only screen and (min-width: 768px) {
+    flex-flow: row wrap;
+  }
+}
+
+.mainpage-all > * {
+  flex: 1 100%;
+}
+
+@media only screen and (min-width: 768px) {
+  .mainpage-main {
+    flex: 2 0px;
+    margin-right: 10px;
+  }
+}
+
+main {
+  padding-top: 0px;
+}
+
+@media only screen and (min-width: 768px) {
+  main {
+    padding-top: 30px;
+  }
+}
