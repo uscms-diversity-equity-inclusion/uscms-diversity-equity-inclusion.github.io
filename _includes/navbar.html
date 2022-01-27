@@ -1,0 +1,38 @@
+
+<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <div class="container">
+        <a class="navbar-brand" href="/"><span><img height="64" src="/assets/logos/USCMS_SC_logo.png" alt="USCMS Software and Computing"></span>
+          U.S. CMS Software and Computing
+        </a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item dropdown active">
+                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="/about/overview">Overview</a>
+                        <a class="dropdown-item" href="/about/team">Team</a>
+                        <a class="dropdown-item" href="/docs">Documentation</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown active">
+                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Areas</a>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
+                        {% assign areas = site.pages | where: "layout", "wbs-area" | sort_natural: 'wbs_no' %}
+                        {% for mypage in areas %}
+                        <a class="dropdown-item" href="{{mypage.permalink}}">{{mypage.title}}</a>
+                        {% endfor %}
+                    </div>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="/postdocs">Research Initiative</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="/Contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
