@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  {% include head.html %}
+  <body>
+    {% include navbar.html %}
+    <div id="container">
+      <div class="hero" >
+        <div class="container w-100 h-100">
+          <div class="row align-items-center h-100">
+            <div class="col-12">
+              <h1 class="text-center">U.S. CMS Diversity, Equity & Inclusion</h1>
+            </div>
+          </div>
+        </div>
+        <div class="hero-back" style="background: url('{{page.bgimage}}')"></div>
+      </div>
+      <div class="container">
+      <main role="main">
+
+        <div class="container min-vh-100">
+          {{content}}
+        </div>
+      </main>
+    </div>
+
+        {% include footer.html %}
+  </div>
+
+  </body>
+</html>
