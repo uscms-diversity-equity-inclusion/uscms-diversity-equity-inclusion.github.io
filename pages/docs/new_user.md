@@ -13,7 +13,7 @@ You should submit a pull request with the photo, a markdown file with the summar
 <https://github.com/uscms-diversity-equity-inclusion/uscms-diversity-equity-inclusion.github.io>
 
 * Add a photo named `First-Last.jpg` or `.png` to the [assets/images/team folder](https://github.com/uscms-diversity-equity-inclusion/uscms-diversity-equity-inclusion.github.io/tree/master/assets/images/team). It should be 320x240 pixels.
-* Add a "`<your github username>.md`" file to the [people folder in the website repository](https://github.com/uscms-diversity-equity-inclusion/uscms-diversity-equity-inclusion.github.io/tree/master/_data/people). Here is an example:
+* Add a "`<your github username>.yml`" file to the [people folder in the website repository](https://github.com/uscms-diversity-equity-inclusion/uscms-diversity-equity-inclusion.github.io/tree/master/_data/people). Here is an example:
 
 ```yml
 ---
