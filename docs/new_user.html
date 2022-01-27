@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<title>Information to add or update members on team page - US CMS Diversity, Equity & Inclusion</title>
+<link rel="stylesheet" href="/assets/css/bootstrap.css" crossorigin="anonymous">
+<link rel="stylesheet" href="/assets/css/style.css">
+<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+
+  <body>
+    
+<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <div class="container">
+        <a class="navbar-brand" href="/"><span><img height="64" src="/assets/logos/USCMS_SC_logo.png" alt="USCMS Diversity, Equity and Inclusion"></span>
+          U.S. CMS Diversity, Equity & Inclusion
+        </a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item dropdown active">
+                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="/about/overview">Overview</a>
+                        <a class="dropdown-item" href="/about/team">Team</a>
+                        <a class="dropdown-item" href="/docs">Documentation</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown active">
+                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Areas</a>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
+                        
+                        
+                        <a class="dropdown-item" href="/leadership_development.html">Leadership Development</a>
+                        
+                        <a class="dropdown-item" href="/mentorship.html">Mentorship</a>
+                        
+                        <a class="dropdown-item" href="/professional_development.html">Professional Development</a>
+                        
+                    </div>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="/Contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+    <div id="container">
+      <div class="container">
+        <main role="main">
+
+          <div class="container">
+
+            <h3 id="adding-a-new-team-member">Adding a New Team Member</h3>
+
+<h4 id="us-cms-dei-website">US CMS DEI website</h4>
+<p>You should submit a pull request with the photo, a markdown file with the summary information above, and your proposal to this repo:</p>
+
+<p><a href="https://github.com/uscms-diversity-equity-inclusion/uscms-diversity-equity-inclusion.github.io">https://github.com/uscms-diversity-equity-inclusion/uscms-diversity-equity-inclusion.github.io</a></p>
+
+<ul>
+  <li>Add a photo named <code class="language-plaintext highlighter-rouge">First-Last.jpg</code> or <code class="language-plaintext highlighter-rouge">.png</code> to the <a href="https://github.com/uscms-diversity-equity-inclusion/uscms-diversity-equity-inclusion.github.io/tree/master/assets/images/team">assets/images/team folder</a>. It should be 320x240 pixels.</li>
+  <li>Add a “<code class="language-plaintext highlighter-rouge">&lt;your github username&gt;.md</code>” file to the <a href="https://github.com/uscms-diversity-equity-inclusion/uscms-diversity-equity-inclusion.github.io/tree/master/_data/people">people folder in the website repository</a>. Here is an example:</li>
+</ul>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nn">---</span>
+<span class="na">active</span><span class="pi">:</span> <span class="no">true</span>
+<span class="na">hidden</span><span class="pi">:</span> <span class="no">false</span>
+<span class="na">institution</span><span class="pi">:</span> <span class="s">CERN</span>
+<span class="na">name</span><span class="pi">:</span> <span class="s">George P. Burdell</span>
+<span class="na">photo</span><span class="pi">:</span> <span class="s2">"</span><span class="s">/assets/images/team/&lt;First</span><span class="nv"> </span><span class="s">name&gt;-&lt;Last</span><span class="nv"> </span><span class="s">name&gt;.jpg"</span>
+<span class="na">shortname</span><span class="pi">:</span> <span class="s">gpb</span>
+<span class="na">title</span><span class="pi">:</span> <span class="s">Test User</span>
+<span class="na">website</span><span class="pi">:</span> <span class="s">https://en.wikipedia.org/wiki/George_P._Burdell</span>
+<span class="nn">---</span>
+</code></pre></div></div>
+
+          </div>
+        </main>
+      </div>
+
+          <footer>
+  <div class="footer-dark">
+    <div class="container">
+      <div class="d-flex flex-row">
+        <div class="footer-vertical-center">
+          <div class="footer-logos">
+            <div class="footer-logo">
+              <img src="/assets/logos/USCMS_SC_logo.png" alt="USCMS logo">
+            </div>
+            <div class="footer-logo">
+              <img src="/assets/logos/doe.png" alt="DOE logo">
+            </div>
+            <div class="footer-logo">
+              <img src="/assets/logos/nsf-logo-128.png" alt="NSF logo">
+            </div>
+
+          </div>
+        </div>
+
+        <div class="footer-text p-2 ml-auto flex-grow-1 footer-vertical-center">
+
+        </div>
+        </div>
+      </div>
+    </div>
+</footer>
+
+    </div>
+  </body>
+</html>
