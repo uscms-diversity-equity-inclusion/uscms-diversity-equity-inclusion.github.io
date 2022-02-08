@@ -4,6 +4,10 @@ title: Home
 bgimage: assets/images/USCMS_banner.png
 ---
 
+<a href="/assets/images/uscms_diversity_wordcloud.png">
+<img alt="USCMS Diversity Wordcloud" src="/assets/images/uscms_diversity_wordcloud.png" style="width:100%;height:auto;"/>
+</a>
+
 # Mission
 The U.S. CMS Collaboration is committed to empowering its members to develop and achieve their full
 potential as excellent and innovative particle physicists. The Collaboration acknowledges that diversity,
