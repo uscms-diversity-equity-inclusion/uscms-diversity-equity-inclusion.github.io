@@ -1,7 +1,7 @@
 ---
 layout: main-page
 title: Home
-bgimage: bgimage: assets/images/USCMS_banner.png
+bgimage: assets/images/USCMS_banner.png
 ---
 
 # Mission
