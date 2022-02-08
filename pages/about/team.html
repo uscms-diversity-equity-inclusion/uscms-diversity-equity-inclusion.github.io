@@ -6,6 +6,7 @@ title: DEI Team
 
 {% assign members = site.data.people | values
                                      | where_exp:"item", "item.active and item.hidden != true"
+                                     | sort: "title"
                                      | last_name_sort: "name" %}
 
 
