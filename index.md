@@ -1,7 +1,7 @@
 ---
 layout: main-page
 title: Home
-bgimage: assets/images/CMS_2006_RB_slice_wLogo.jpg
+bgimage: bgimage: assets/images/USCMS_banner.png
 ---
 
 # Mission
