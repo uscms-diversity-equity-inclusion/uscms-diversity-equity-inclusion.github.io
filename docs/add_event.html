@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<title>Adding an event to the website - US CMS Diversity, Equity & Inclusion</title>
+<link rel="stylesheet" href="/assets/css/bootstrap.css" crossorigin="anonymous">
+<link rel="stylesheet" href="/assets/css/style.css">
+<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+
+  <body>
+    
+<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <div class="container">
+        <a class="navbar-brand" href="/"><span><img height="64" src="/assets/logos/USCMS_SC_logo.png" alt="USCMS Diversity, Equity and Inclusion"></span>
+          U.S. CMS Diversity, Equity & Inclusion
+        </a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item dropdown active">
+                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="/about/overview">Overview</a>
+                        <a class="dropdown-item" href="/about/dei_docs">DEI Documents</a>
+                        <a class="dropdown-item" href="/about/dei_stats">USCMS DEI Statistics</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown active">
+                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Activites</a>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
+                        
+                        
+                        <a class="dropdown-item" href="/black_history_month.html">Black History Month</a>
+                        
+                        <a class="dropdown-item" href="/mentorship.html">Mentorship</a>
+                        
+                        <a class="dropdown-item" href="/site_visit.html">Site Visit</a>
+                        
+                    </div>
+                </li>
+                <li class="nav-item dropdown active">
+                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Resources</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="/resources/leadership_development">Leadership Development</a>
+                        <a class="dropdown-item" href="/resources/professional_development">Professional Development</a>
+                        <a class="dropdown-item" href="/resources/internships">Internships</a>
+                        <a class="dropdown-item" href="/resources/allyship">Allyship Workshop</a>
+                    </div>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="/about/contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+    <div id="container">
+      <div class="container">
+        <main role="main">
+
+          <div class="container">
+
+            <h2 id="how-to-add-an-event-to-the-us-cms-dei-site">How to add an event to the U.S. CMS DEI site</h2>
+
+<h4 id="general">General</h4>
+
+<p>Create a YAML file in _data/events.  Filename format should be YYYYMMDD-<Descriptive Name="">.yml 
+For the event below, the filename would be 20220204-USCMS_DEI_Meeting.yml.</Descriptive></p>
+
+<p>If you want to add an event these are the fields in the YAML file.</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">name</span><span class="pi">:</span> <span class="s">USCMS DEI Meeting</span>
+<span class="na">startdate</span><span class="pi">:</span> <span class="s">2022-02-04</span>
+<span class="na">enddate</span><span class="pi">:</span> <span class="s">2022-02-04</span>
+<span class="na">location</span><span class="pi">:</span> <span class="s">Virtual</span>
+<span class="na">meetingurl</span><span class="pi">:</span> <span class="s">https://indico.cern.ch/event/1122513/</span>
+<span class="na">image</span><span class="pi">:</span>
+<span class="na">description</span><span class="pi">:</span>  <span class="s">U.S. CMS Diversity, Equity &amp; Inclusion Committee Meeting</span>
+</code></pre></div></div>
+
+<hr />
+
+
+          </div>
+        </main>
+      </div>
+
+          <footer>
+  <div class="footer-dark">
+    <div class="container">
+      <div class="d-flex flex-row">
+        <div class="footer-vertical-center">
+          <div class="footer-logos">
+            <div class="footer-logo">
+              <img src="/assets/logos/USCMS_SC_logo.png" alt="USCMS logo">
+            </div>
+            <div class="footer-logo">
+              <img src="/assets/logos/doe.png" alt="DOE logo">
+            </div>
+            <div class="footer-logo">
+              <img src="/assets/logos/nsf-logo-128.png" alt="NSF logo">
+            </div>
+
+          </div>
+        </div>
+
+        <div class="footer-text p-2 ml-auto flex-grow-1 footer-vertical-center">
+
+        </div>
+        </div>
+      </div>
+    </div>
+</footer>
+
+    </div>
+  </body>
+</html>
