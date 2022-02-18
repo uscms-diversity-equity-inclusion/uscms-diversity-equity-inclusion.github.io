@@ -61,4 +61,30 @@ main { padding-top: 0px; }
 
 @media only screen and (min-width: 768px) { main { padding-top: 30px; } }
 
+.mainpage-sidebar { padding: 0px; }
+
+@media only screen and (min-width: 768px) { .mainpage-sidebar { flex: 1 0px; padding: 0 8px 0 8px; } }
+
+.mainpage-sidebar .mainpage-sidebar-links { text-align: right; margin-top: -10px; }
+
+.mainpage-sidebar .mainpage-core h4 { font-size: 1.3rem; margin-bottom: .2rem; }
+
+.mainpage-sidebar ul { margin-top: 0.5rem; margin-bottom: 1rem; padding: 0px; list-style: none; }
+
+.mainpage-sidebar .event, .mainpage-sidebar .empty { display: flex; flex-flow: row wrap; margin: 5px 0 10px 0; background-color: LightBlue; border-radius: 6px; color: black; }
+
+.mainpage-sidebar .event .date, .mainpage-sidebar .event .location, .mainpage-sidebar .empty .date, .mainpage-sidebar .empty .location { color: white; }
+
+.mainpage-sidebar .event .date, .mainpage-sidebar .empty .date { background-color: Blue; border-radius: 6px 0px 0px 0px; flex: 0 2 35%; font-size: 0.8rem; padding: 0 5px 0 10px; }
+
+.mainpage-sidebar .event .location, .mainpage-sidebar .empty .location { background-color: Blue; border-radius: 0px 6px 0px 0px; flex: 0 3 65%; text-align: right; font-style: italic; font-size: 0.8rem; padding: 0 10px 0 5px; }
+
+.mainpage-sidebar .event .name, .mainpage-sidebar .event .projects, .mainpage-sidebar .empty .name, .mainpage-sidebar .empty .projects { flex: 0 1 100%; font-size: 1.1rem; padding: 0 10px 0 10px; color: black; }
+
+.mainpage-sidebar .event .projects p, .mainpage-sidebar .empty .projects p { margin-top: .5rem; margin-bottom: .5rem; text-align: center; }
+
+.mainpage-sidebar .event .projects p a, .mainpage-sidebar .empty .projects p a { color: black; }
+
+.mainpage-sidebar .empty { padding: 4px 8px 4px 8px; }
+
 /*# sourceMappingURL=style.css.map */
