@@ -9,8 +9,6 @@ pagetype: doc
 
 #### General
 
-Add a "`<your github username>.yml`" file to the [people folder in the website repository](https://github.com/uscms-diversity-equity-inclusion/uscms-diversity-equity-inclusion.github.io/tree/master/_data/people). Here is an example:
-
 Create a YAML file in [events folder in the website repository](https://github.com/uscms-diversity-equity-inclusion/uscms-diversity-equity-inclusion.github.io/tree/master/_data/events).  Filename format should be YYYYMMDD-<Descriptive Name>.yml 
 For the event below, the filename would be 20220204-USCMS_DEI_Meeting.yml.
 
