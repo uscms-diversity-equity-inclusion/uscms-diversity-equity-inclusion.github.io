@@ -180,3 +180,88 @@ main {
     padding-top: 30px;
   }
 }
+
+// Sidebar
+
+.mainpage-sidebar {
+  padding: 0px;
+  @media only screen and (min-width: 768px) {
+    flex: 1 0px;
+
+    padding: 0 8px 0 8px;
+
+  }
+
+  .mainpage-sidebar-links {
+    text-align: right;
+    margin-top: -10px;
+  }
+
+  .mainpage-core h4 {
+    // @extend %light-purple-header;
+    font-size: 1.3rem;
+    margin-bottom: .2rem;
+  }
+
+  ul {
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    padding: 0px;
+    list-style: none;
+  }
+
+  .event, .empty {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 5px 0 10px 0;
+    // background-color: scale-color($iris-100, $lightness:60%);
+    background-color: LightBlue;
+    border-radius: 6px;
+    color: black;
+
+    .date, .location {
+      color: white;
+    }
+
+    .date {
+      // background-color: $iris-400;
+      background-color: Blue;
+      border-radius: 6px 0px 0px 0px;
+      flex: 0 2 35%;
+      font-size: 0.8rem;
+      padding: 0 5px 0 10px;
+    }
+
+    .location {
+      // background-color: $iris-400;
+      background-color: Blue;
+      border-radius: 0px 6px 0px 0px;
+      flex: 0 3 65%;
+      text-align: right;
+      font-style: italic;
+      font-size: 0.8rem;
+      padding: 0 10px 0 5px;
+    }
+
+    .name, .projects {
+      flex: 0 1 100%;
+      font-size: 1.1rem;
+      padding: 0 10px 0 10px;
+      color: black;
+    }
+
+    .projects p {
+      margin-top: .5rem;
+      margin-bottom: .5rem;
+      text-align: center;
+      // color: $iris-200;
+
+      a {
+        color: black;
+      }
+    }
+  }
+  .empty {
+    padding: 4px 8px 4px 8px;
+  }
+}
