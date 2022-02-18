@@ -1,10 +1,11 @@
 ---
-permalink: /professional_development.html
-layout: dei-area
-title: Professional Development
-short_title: Professional Development
-pagetype: dei-area
+layout: default
+title: About
+permalink: /resources/professional_development.html
 ---
+
+## Professional Development Resources
+
 
 ## Professional development
 U.S. CMS plans to provide professional development opportunities appropriate to all levels of experience

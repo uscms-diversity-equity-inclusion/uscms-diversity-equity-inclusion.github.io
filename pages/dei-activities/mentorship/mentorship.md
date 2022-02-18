@@ -1,9 +1,9 @@
 ---
 permalink: /mentorship.html
-layout: dei-area
+layout: dei-activity
 title: Mentorship
 short_title: Mentorship
-pagetype: dei-area
+pagetype: dei-activity
 ---
 
 ## Mentorship Program

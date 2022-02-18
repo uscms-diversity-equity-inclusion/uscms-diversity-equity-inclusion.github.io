@@ -1,10 +1,11 @@
 ---
-permalink: /leadership_development.html
-layout: dei-area
-title: Leadership Development
-short_title: Leadership Development
-pagetype: dei-area
+layout: default
+title: About
+permalink: /resources/leadership_development.html
 ---
+
+## Leadership Development Resources
+
 
 ## Leadership development
 
