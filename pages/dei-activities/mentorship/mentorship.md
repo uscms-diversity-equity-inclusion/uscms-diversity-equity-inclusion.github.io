@@ -21,14 +21,14 @@ Each year, the program begins with calls for sign-ups, followed by the matching 
 meeting is held to host the first connection between new mentors and mentees. Monthly meetings are then encouraged for all partners by email. 
 In December the annual program ends, at which point participants can continue their connections or step back if needed.  
 
-<img src="mentorship.png" alt="annual timeline" width="600"/>
+<img src="pages/dei-activities/mentorship/mentorship.png" alt="annual timeline" width="600"/>
 
 Since 2020 several mentor-mentee pairs have continued
 their connections, others have engaged with new partners each year to build their network, and new participants have joined. 
 Mentees are primarily graduate students and mentors are primarily faculty members or lab scientists, but the program also
 benefits from peer mentoring of new students by older students and postdocs, and of junior faculty by senior faculty.
 
-![graphs of participant rank](participants.png)
+![graphs of participant rank](pages/dei-activities/mentorship/participants.png)
 
 The committee plans to continue this program in the future and include in-person activities at U.S. CMS meetings as
 well as mentee- or mentor-specific meet-ups to build community between program participants. The mentorship program coordinators 
