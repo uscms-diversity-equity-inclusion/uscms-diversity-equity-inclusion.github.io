@@ -57,3 +57,5 @@ gem 'wdm', '~> 0.1.0' if Gem.win_platform?
 # Please use rbenv to pick Ruby versions; the next Jekyll release
 # will not work with macOS's Ruby 2.3
 gem 'ffi', '~> 1.10'
+
+gem "webrick", "~> 1.7"

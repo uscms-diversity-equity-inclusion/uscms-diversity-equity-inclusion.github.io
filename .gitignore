@@ -1,12 +1,11 @@
-
 *.lock
+_site/
 *~
 *.swp
 .DS_Store
 .sass-cache/
 /bin/
 Gemfile.lock
-_site/
 assets/.DS_Store
 .bundle/
 vendor/
