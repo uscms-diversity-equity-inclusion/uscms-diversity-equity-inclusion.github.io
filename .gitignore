@@ -10,6 +10,6 @@ assets/.DS_Store
 .bundle/
 vendor/
 _cache/
-.ruby-version
 .jekyll-metadata
 .jekyll-cache
+.ruby-version
