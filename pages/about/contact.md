@@ -1,7 +1,7 @@
 ---
 layout: people
 title: About
-permalink: /about/contact.html
+permalink: contact.html
 ---
 
 
