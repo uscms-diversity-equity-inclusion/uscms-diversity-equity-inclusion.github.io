@@ -5,13 +5,13 @@ permalink: /about/subcommittees.html
 ---
 
 # USCMS DEI Sub - Committees 
-{: style="background-image: linear-gradient(to right,aqua, white); color:red;text-align:center"}
+{: style="background-image: linear-gradient(to right,rgb(0 233 252), white); color:rgb(226 16 22);text-align:center"}
 
 
 
 - ## Institutional Needs and Goals
     - Agni Bethani
-    - Jose Monroig
+    - Jose Monroy
     - ..
     - ..
 
