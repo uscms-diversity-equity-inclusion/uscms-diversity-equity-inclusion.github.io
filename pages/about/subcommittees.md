@@ -56,7 +56,7 @@ permalink: /about/subcommittees.html
 <!-- - Jennifer Roloff (Brown) -->
 <!-- - Grace Haza (Nebraska)  -->
 
-**Mentorship** - 
+**Mentorship** - Julie Hogan (Bethel University)
 
 <!-- -  Cristina Mantilla Suarez (FNAL)
 -  Stephane Cooperstein (UC San Diego)
