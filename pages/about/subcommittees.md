@@ -56,9 +56,11 @@ permalink: /about/subcommittees.html
 <!-- - Jennifer Roloff (Brown) -->
 <!-- - Grace Haza (Nebraska)  -->
 
+
 **Mentorship** - Julie Hogan (Bethel University)
 
 <!-- -  Cristina Mantilla Suarez (FNAL)
 -  Stephane Cooperstein (UC San Diego)
 -  Daniel Diaz (UC San Diego)
 -  Philip Chang (Uni. Florida) -->
+
