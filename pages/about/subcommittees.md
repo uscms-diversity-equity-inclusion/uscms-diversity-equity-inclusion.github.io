@@ -7,7 +7,7 @@ permalink: /about/subcommittees.html
 ## USCMS DEI Sub - Committees (Current Members)
 
 
-#### Institutional needs and goals
+### [Institutional needs and goals](/inst_needs.html)
 <!-- -  Agni Bethani (Maryland) -->
 - Jose Monroy (Cornell)
 - Jim Hirschaeur (FNAL)
@@ -15,12 +15,12 @@ permalink: /about/subcommittees.html
 - Cristina Mantilla Suarez (FNAL)
 - Ulrich Heintz (Brown)
 
-### In-house activities
+### [In-house activities](/inhouse.html)
 - Chris Palmer (Maryland)
 - Fengwangdong Zhang (UC Davis)
 - Stephane Cooperstein(UC San Diego)
 
-### Outside activities
+### [Outside activities](/outside.html)
 <!-- - Agni Bethani (Maryland) -->
 <!-- - Jieun Yoo (UIC) -->
 <!-- - Javier Duarte (UC San Diego) -->
@@ -28,7 +28,7 @@ permalink: /about/subcommittees.html
 - Jennifer Roloff (Brown)
 - Grace Haza (Nebraska)
 
-### Mentorship
+### [Mentorship](/mentorship.html)
 - Cristina Mantilla Suarez (FNAL)
 - Stephane Cooperstein (UC San Diego)
 - Daniel Diaz (UC San Diego)
