@@ -23,7 +23,7 @@ permalink: /about/subcommittees.html
 ### [Outside activities](/outside.html)
 <!-- - Agni Bethani (Maryland) -->
 <!-- - Jieun Yoo (UIC) -->
-<!-- - Javier Duarte (UC San Diego) -->
+- Javier Duarte (UC San Diego)
 - Richa Sharma (UPRM)
 - Jennifer Roloff (Brown)
 - Grace Haza (Nebraska)
@@ -51,7 +51,8 @@ permalink: /about/subcommittees.html
 -  Fengwangdong Zhang (UC Davis)
 -  Stephane Cooperstein(UC San Diego) -->
 
-**Outside activities** - Agni Bethani (Maryland), Jieun Yoo (UIC), Javier Duarte (UC San Diego)
+**Outside activities** - Agni Bethani (Maryland), Jieun Yoo (UIC)
+ <!-- Javier Duarte (UC San Diego) -->
 <!-- - Richa Sharma (UPRM) -->
 <!-- - Jennifer Roloff (Brown) -->
 <!-- - Grace Haza (Nebraska)  -->
