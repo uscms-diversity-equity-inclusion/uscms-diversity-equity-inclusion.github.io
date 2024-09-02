@@ -8,6 +8,8 @@ permalink: /about/subcommittees.html
 
 
 ### [Institutional needs and goals](/inst_needs.html)
+Goal: Understand the needs of our community including understanding and tracking the recommendations of the APS site report
+Current Members:
 <!-- -  Agni Bethani (Maryland) -->
 - Jose Monroy (Cornell)
 - Jim Hirschaeur (FNAL)
