@@ -8,7 +8,7 @@ permalink: /about/subcommittees.html
 
 
 ### [Institutional needs and goals](/inst_needs.html)
-Goal: Understand the needs of our community including understanding and tracking the recommendations of the APS site report
+Goal: Understand the needs of our community including understanding and tracking the recommendations of the APS site report<br/>
 Current Members:
 <!-- -  Agni Bethani (Maryland) -->
 - Jose Monroy (Cornell)
