@@ -11,7 +11,7 @@ permalink: /about/subcommittees.html
 **Goal** : Understand the needs of our community including understanding and tracking the recommendations of the APS site report<br/>
 <!-- -  Agni Bethani (Maryland) -->
 - Jose Monroy (Cornell)
-- Jim Hirschaeur (FNAL)
+<!-- - Jim Hirschaeur (FNAL) -->
 <!-- -  Todd Adams(FSU) -->
 - Cristina Mantilla Suarez (FNAL)
 - Ulrich Heintz (Brown)
