@@ -34,7 +34,7 @@ permalink: /about/subcommittees.html
 
 ### [Mentorship](/mentorship.html)
 **Goal:** Connect non-academic, non-research mentors and mentees for a variety of motivations and career levels, U.S. CMS Mentorship program<br/>
-- Cristina Mantilla Suarez (FNAL)
+- Cristina Mantilla Suarez (University of Virgina)
 - Stephane Cooperstein (UC San Diego)
 - Daniel Diaz (UC San Diego)
 - Philip Chang (Uni. Florida)
