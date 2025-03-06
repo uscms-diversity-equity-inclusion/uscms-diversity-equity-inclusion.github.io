@@ -5,9 +5,7 @@ permalink: contact.html
 ---
 
 
-# Email Contact
-
-[uscms-dei@cern.ch](mailto:uscms-dei@cern.ch)
+# Contact
 
 {% assign members = site.data.people | values
                                      | where_exp:"item", "item.active and item.hidden != true"
