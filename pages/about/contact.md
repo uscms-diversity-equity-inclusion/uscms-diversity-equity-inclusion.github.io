@@ -5,7 +5,7 @@ permalink: contact.html
 ---
 
 
-# Contact
+# Contact (anonymous mail box - mail goes to USCMS chair/deputy) - [Click here (requires CERN login)](https://uscms-anonymous-box.web.cern.ch/)
 
 {% assign members = site.data.people | values
                                      | where_exp:"item", "item.active and item.hidden != true"
