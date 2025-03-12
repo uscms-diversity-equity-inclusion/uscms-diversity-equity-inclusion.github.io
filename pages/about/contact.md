@@ -17,7 +17,7 @@ permalink: contact.html
                                           | sort: "title"
                                           | last_name_sort: "name" %}
 
-# Present Members
+# Present Members (USCMS DEI committee)
 
 <div class="container-fluid">
 <div class="row">
@@ -32,7 +32,7 @@ permalink: contact.html
 <br>
 <hr>
 <br> 
-# Past Members
+# Past Members (USCMS DEI committee)
 
 <div class="container-fluid">
 <div class="row">
