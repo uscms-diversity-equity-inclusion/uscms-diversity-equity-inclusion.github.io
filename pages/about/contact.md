@@ -7,8 +7,7 @@ permalink: contact.html
 
 # Link to the anonymous mail box - (mail goes to only USCMS chair/deputy)
 
-## [Click here (requires CERN login)](https://uscms-anonymous-box.web.cern.ch/)
-
+# Click [here] (https://uscms-anonymous-box.web.cern.ch/)for anonymous mail box (mail goes to only USCMS chair/deputy)(requires CERN login)
 
 
 {% assign members = site.data.people | values
