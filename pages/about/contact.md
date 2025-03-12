@@ -47,6 +47,6 @@ permalink: contact.html
 <br>
 <hr>
 <br> 
-## Past Members
+## Past Members (USCMS DEI committee)
 
 For a list of the past members [click here]({% link pages/about/past_members.md %})
