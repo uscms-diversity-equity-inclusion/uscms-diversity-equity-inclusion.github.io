@@ -27,29 +27,34 @@ permalink: /about/subcommittees.html
 - Samantha Abbott (chair) (UC Davis)
 - Chris Palmer (Maryland)
 - Daniel Diaz (UCSD)
-- Jennifer Roloff (Brown)
 - Yi (Luna) (Vanderbilt)
+<!--- Jennifer Roloff (Brown) --> 
 <!-- - Fengwangdong Zhang (UC Davis) -->
 <!-- - Stephane Cooperstein(UC San Diego) -->
 
 ### [Outside activities](/outside.html)
-<!-- - Agni Bethani (Maryland) -->
-<!-- - Jieun Yoo (UIC) -->
 **Goal:** Collect and disseminate information about DEI and DEI adjacent activities from outside USCMS<br/>
-<!-- - Javier Duarte (UC San Diego) -->
-- Farrah Simpson (Princeton)
 - Richa Sharma (UPRM)
 - Yi (Luna) (Vanderbilt)
 <!-- - Jennifer Roloff (Brown) -->
 <!-- - Grace Haza (Nebraska) -->
+<!-- - Agni Bethani (Maryland) -->
+<!-- - Jieun Yoo (UIC) -->
+<!-- - Javier Duarte (UC San Diego) -->
+<!-- - Farrah Simpson (Princeton)  -->
 
 ### [Mentorship](/mentorship.html)
 **Goal:** Connect non-academic, non-research mentors and mentees for a variety of motivations and career levels, U.S. CMS Mentorship program<br/>
 - Daniel Diaz (chair) (UC San Diego)
-- Cristina Mantilla Suarez (University of Virgina)
 - Kyungmin Park (Carnegie Mellon)
-- Stephane Cooperstein (UC San Diego)
+
 <!-- - Philip Chang (Uni. Florida) -->
+<!-- - Stephane Cooperstein (UC San Diego) -->
+<!-- - Cristina Mantilla Suarez (University of Virgina)-->
+<!--  -->
+<!--  -->
+
+<!--  -->
   
 --- 
 
@@ -59,7 +64,7 @@ permalink: /about/subcommittees.html
 
 **In-house activities** - Fengwangdong Zhang (UC Davis), Stephane Cooperstein(UC San Diego)
 
-**Outside activities** - Agni Bethani (Maryland), Jieun Yoo (UIC), Javier Duarte (UC San Diego), Jennifer Roloff (Brown)
+**Outside activities** - Agni Bethani (Maryland), Jieun Yoo (UIC), Javier Duarte (UC San Diego), Jennifer Roloff (Brown), Farrah Simpson (Princeton), 
 
-**Mentorship** - Julie Hogan (Bethel University), Philip Chang (Uni. Florida) 
+**Mentorship** - Julie Hogan (Bethel University), Philip Chang (Uni. Florida),  Stephane Cooperstein (UC San Diego)
 
